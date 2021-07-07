@@ -1,6 +1,6 @@
 import { Dropdown } from "react-bulma-components";
 import { useSelector, useDispatch } from "react-redux";
-import { setLang } from "../../services/i18n/i18nSlice";
+import { setLangAsync } from "../../services/i18n/i18nSlice";
 import styles from "./LangSwitcher.module.scss";
 
 export function LangSwitcher() {
@@ -17,7 +17,9 @@ export function LangSwitcher() {
       color="dark"
       className={styles.dropdown}
       value={lang}
-      onChange={(newLang) => dispatch(setLang(newLang))}
+      onChange={(newLang) =>
+        dispatch(setLangAsync(newLang))
+      }
     >
       {Object.entries(supportedLangs).map(
         ([code, name]) => (

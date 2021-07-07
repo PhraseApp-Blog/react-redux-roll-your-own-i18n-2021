@@ -5,3 +5,5 @@ export const supportedLangs = {
   de: "Deutsche",
   fr: "Français",
 };
+
+export const langUrl = "/lang/{lang}.json";
