@@ -53,7 +53,4 @@ export const i18nSlice = createSlice({
   },
 });
 
-export const selectTranslations = (state) =>
-  state.i18n.translations;
-
 export default i18nSlice.reducer;

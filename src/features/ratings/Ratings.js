@@ -1,11 +1,10 @@
-import { useSelector } from "react-redux";
 import { Heading } from "react-bulma-components";
 import Rating from "./Rating";
-import { selectTranslations } from "../../services/i18n/i18nSlice";
+import useTranslations from "../../services/i18n/useTranslations";
 import styles from "./Ratings.module.scss";
 
 export default function Ratings() {
-  const t = useSelector(selectTranslations);
+  const { t } = useTranslations();
 
   return (
     <>
