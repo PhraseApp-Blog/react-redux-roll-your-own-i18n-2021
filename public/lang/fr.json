@@ -1,4 +1,9 @@
 {
   "tagline": "Amélioration continue",
-  "ratings": "Évaluations"
+  "ratings": "Évaluations",
+  "composition": "Composition",
+  "technique": "Technique",
+  "color_scheme": "Schéma de couleurs",
+  "expressiveness": "Expressivité",
+  "tilt": "Inclinaison subjective"
 }

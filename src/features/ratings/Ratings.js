@@ -13,11 +13,11 @@ export default function Ratings() {
       </Heading>
 
       <div className={styles.ratings}>
-        <Rating name="Composition" rating={4} />
-        <Rating name="Technique" rating={3} />
-        <Rating name="Colour Scheme" rating={2} />
-        <Rating name="Expressiveness" rating={4} />
-        <Rating name="Tilt" rating={4} />
+        <Rating name={t.composition} rating={4} />
+        <Rating name={t.technique} rating={3} />
+        <Rating name={t.color_scheme} rating={2} />
+        <Rating name={t.expressiveness} rating={4} />
+        <Rating name={t.tilt} rating={4} />
       </div>
     </>
   );
