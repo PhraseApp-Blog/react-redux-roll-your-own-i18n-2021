@@ -1,0 +1,11 @@
+@charset "utf-8";
+$text: hsl(0, 0%, 96%);
+$text-strong: hsl(0, 0%, 96%);
+$primary: #c1dff2;
+
+@import "~bulma/bulma.sass";
+
+html {
+  color: $white-ter;
+  background-color: $grey-darker;
+}
