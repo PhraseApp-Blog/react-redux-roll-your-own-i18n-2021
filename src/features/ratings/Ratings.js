@@ -1,12 +1,16 @@
+import { useSelector } from "react-redux";
 import { Heading } from "react-bulma-components";
 import Rating from "./Rating";
+import { selectTranslations } from "../../services/i18n/i18nSlice";
 import styles from "./Ratings.module.scss";
 
 export default function Ratings() {
+  const t = useSelector(selectTranslations);
+
   return (
     <>
       <Heading heading renderAs="h3">
-        Ratings
+        {t.ratings}
       </Heading>
 
       <div className={styles.ratings}>

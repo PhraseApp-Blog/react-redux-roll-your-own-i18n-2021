@@ -6,7 +6,11 @@
 }
 
 .container {
-  padding: 1.5rem 0 0 1rem;
+  padding: 0.75rem 0 0 1rem;
+}
+
+.columns > * {
+  padding-bottom: 0;
 }
 
 .heading,

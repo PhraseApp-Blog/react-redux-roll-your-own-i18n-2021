@@ -28,10 +28,13 @@ export const i18nSlice = createSlice({
   initialState,
   reducers: {
     setLang: (state, action) => {
+      console.log({ setLang });
       state.lang = action.payload;
     },
   },
 });
+
+export const { setLang } = i18nSlice.actions;
 
 export const selectTranslations = (state) =>
   state.i18n.translations[state.i18n.lang];

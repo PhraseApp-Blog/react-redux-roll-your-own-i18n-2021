@@ -2,6 +2,10 @@
 $text: hsl(0, 0%, 96%);
 $text-strong: hsl(0, 0%, 96%);
 $primary: #c1dff2;
+$dropdown-content-background-color: $text;
+$dropdown-item-hover-background-color: $primary;
+$dropdown-item-color: rgb(54, 54, 54);
+$dropdown-item-active-background-color: #3d434c;
 
 @import "~bulma/bulma.sass";
 
