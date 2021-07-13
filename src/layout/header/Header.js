@@ -11,7 +11,7 @@ export default function Header() {
       <Columns className={styles.columns}>
         <Columns.Column>
           <Heading className={styles.heading}>
-            Offene
+            Offen
           </Heading>
 
           <Heading
