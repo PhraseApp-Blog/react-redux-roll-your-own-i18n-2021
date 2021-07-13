@@ -4,7 +4,7 @@ import styles from "./Header.module.scss";
 export default function Header() {
   return (
     <header className={styles.container}>
-      <Heading className={styles.heading}>Offene</Heading>
+      <Heading className={styles.heading}>Offen</Heading>
 
       <Heading
         heading
